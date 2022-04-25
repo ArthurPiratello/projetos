@@ -1,0 +1,41 @@
+header{
+    background-color: aquamarine;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial;
+}
+
+footer{
+    background-color: aquamarine;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+
+
+.galery{
+    width: 640px;
+    height: 600px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.galery .fotos{
+    width: 500px;
+    animation-name: animacao;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos img{
+    width: 500px;
+}
+
+.container{
+    text-align: center;
+}
